@@ -22,7 +22,7 @@ class Signin extends React.Component <any,any> {
         event.preventDefault();
         console.log("Sign In button clicked");
         // setTimeout(() => { // Add a delay of 2000 milliseconds (2 seconds) to the console.log
-        fetch('http://localhost:3000/signin', {
+        fetch('https://fr-server.onrender.com/signin', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
